@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\nisa@C\\Development\\OpenGL\\External Libs\\GLM\\**",
+                "D:\\nisa@C\\Development\\OpenGL\\External Libs\\GLFW\\include\\**",
+                "D:\\nisa@C\\Development\\OpenGL\\External Libs\\GLEW\\include\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\mingw64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,39 @@
+if (shadowType == ShadowType.TOP) {
+            x = shadowSize;
+            y = size;
+        }
+        else if (shadowType == ShadowType.BOT) {
+            x = shadowSize;
+            y = 0;
+        }
+        else if (shadowType == ShadowType.TOP_LEFT) {
+            x = size;
+            y = size;
+        }
+        else if (shadowType == ShadowType.TOP_RIGHT) {
+            x = 0;
+            y = size;
+        }
+        else if (shadowType == ShadowType.BOT_LEFT) {
+            x = size;
+            y = 0;
+        }
+        else if (shadowType == ShadowType.BOT_RIGHT) {
+            x = 0;
+            y = 0;
+        }
+        else {
+            x = shadowSize;
+            y = shadowSize;
+        }
+
+        if ((int) circlelastrun == 185)
+                    checkCirclelast = 185;
+                if ((int) circlelastrun == 255)
+                    checkCirclelast = 255;
+                if ((int) circlelastrun == 325)
+                    checkCirclelast = 325;
+                if ((int) circlelastrun == 395)
+                    checkCirclelast = 395;
+                if ((int)circlelastrun == 465)
+                    checkCirclelast = 465;
